@@ -3,20 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		24C02BC867614C2EB0122C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282D8FE71E01463EA6697D17 /* Assets.xcassets */; };
-		2CC4716533254EFAA1C10B15 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98A792FF9F5493C8AB25D84 /* TNSWidgets.framework */; };
 		374B3A4BC438403E9AE0DE8E /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3A976ADE847F8B8B982D8 /* build.xcconfig */; };
 		37BB8B4CB43F4D89933D9687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348CF38329CB4C7D98AF0977 /* LaunchScreen.storyboard */; };
-		78208CDE91EA444DB7CD714F /* BarcodeScannerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 248FBC1D66AE4BE5A2748F3B /* BarcodeScannerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
-		CA805BB0E00A4EEC8210835F /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A98A792FF9F5493C8AB25D84 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		D8548C24C9DE4442821738CE /* BarcodeScannerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248FBC1D66AE4BE5A2748F3B /* BarcodeScannerFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				78208CDE91EA444DB7CD714F /* BarcodeScannerFramework.framework in Embed Frameworks */,
-				CA805BB0E00A4EEC8210835F /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		248FBC1D66AE4BE5A2748F3B /* BarcodeScannerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BarcodeScannerFramework.framework; path = "$(SRCROOT)/../../node_modules/nativescript-barcodescanner/platforms/ios/BarcodeScannerFramework.framework"; sourceTree = "<group>"; };
 		282D8FE71E01463EA6697D17 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = Vemex/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		348CF38329CB4C7D98AF0977 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = Vemex/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE3A976ADE847F8B8B982D8 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = Vemex/Resources/build.xcconfig; sourceTree = "<group>"; };
@@ -44,7 +37,6 @@
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* Vemex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vemex-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* Vemex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vemex.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A98A792FF9F5493C8AB25D84 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,8 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8548C24C9DE4442821738CE /* BarcodeScannerFramework.framework in Frameworks */,
-				2CC4716533254EFAA1C10B15 /* TNSWidgets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +60,6 @@
 			children = (
 				E070579D1B39A9D000214BF1 /* Resources */,
 				858B833718CA111C00AB12DE /* Vemex */,
-				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,15 +71,6 @@
 				858B843318CA22B800AB12DE /* Vemex.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		858B833018CA111C00AB12DE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				248FBC1D66AE4BE5A2748F3B /* BarcodeScannerFramework.framework */,
-				A98A792FF9F5493C8AB25D84 /* TNSWidgets.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		858B833718CA111C00AB12DE /* Vemex */ = {
@@ -166,7 +146,7 @@
 				};
 			};
 			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "Vemex" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -361,6 +341,7 @@
 					"DEBUG=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Vemex/Vemex-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Vemex;
 				VALID_ARCHS = "armv7 arm64";
@@ -385,6 +366,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vemex/Vemex-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Vemex/Vemex-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Vemex;
 				VALID_ARCHS = "armv7 arm64";
